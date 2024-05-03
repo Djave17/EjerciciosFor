@@ -16,10 +16,10 @@ int main(int argc, char const *argv[])
 
 void promedio(){
     int suma, nota, promedio; 
-    for(int i = 1; i <= 10; i++){
+    for(int i = 0; i <= 10; i++){
         cout<<"Ingrese una nota: ";
         cin>>nota;
-        cout<<"Nota #"<< i<<endl;  
+        cout<<"Nota #"<< i+ 1 <<endl;  
         suma = suma + nota;
 
     }  
